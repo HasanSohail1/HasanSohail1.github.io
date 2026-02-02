@@ -7,10 +7,10 @@
   <title>Hasan Sohail | Epidemiologist & Global Health Researcher</title>
 
   <!-- SEO -->
-  <meta name="description" content="Hasan Sohail is an epidemiologist working in global health, social policy, and population health research. Podcast host and academic researcher.">
+  <meta name="description" content="Hasan Sohail is an epidemiologist working in global health, social policy, and population health research.">
   <meta name="author" content="Hasan Sohail">
 
-  <!-- Open Graph (for sharing) -->
+  <!-- Open Graph -->
   <meta property="og:title" content="Hasan Sohail – Epidemiologist & Global Health Researcher">
   <meta property="og:description" content="Research, teaching, and podcasting on global health, social policy, and migration.">
   <meta property="og:type" content="website">
@@ -19,14 +19,12 @@
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Styles -->
   <style>
     :root {
-      --bg: #f8fafc;
+      --bg: #ffffff;
       --text: #0f172a;
       --muted: #475569;
       --primary: #2563eb;
-      --accent: #e0e7ff;
     }
 
     body {
@@ -34,37 +32,51 @@
       font-family: 'Inter', system-ui, sans-serif;
       background: var(--bg);
       color: var(--text);
-      line-height: 1.7;
+      line-height: 1.75;
     }
 
     .container {
-      max-width: 820px;
+      max-width: 760px;
       margin: auto;
-      padding: 70px 24px;
+      padding: 90px 24px;
+    }
+
+    /* HERO (Talha-style) */
+    .hero {
+      max-width: 720px;
+      margin-bottom: 100px;
     }
 
     h1 {
-      font-size: 2.8rem;
-      margin-bottom: 0.2em;
+      font-size: 3.2rem;
+      font-weight: 700;
+      margin-bottom: 12px;
     }
 
-    .tagline {
+    .role {
+      font-size: 1.1rem;
       color: var(--muted);
-      font-size: 1.15rem;
-      margin-bottom: 40px;
+      margin-bottom: 22px;
     }
 
+    .intro {
+      font-size: 1.1rem;
+    }
+
+    /* SECTIONS (flat, no cards) */
     .section {
-      background: white;
-      padding: 30px;
-      border-radius: 16px;
-      margin-top: 36px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      margin-top: 70px;
     }
 
     h2 {
-      margin-top: 0;
+      font-size: 1.4rem;
+      font-weight: 600;
       margin-bottom: 12px;
+    }
+
+    p, li {
+      font-size: 1.05rem;
+      color: #1f2937;
     }
 
     ul {
@@ -82,8 +94,7 @@
     }
 
     footer {
-      margin-top: 50px;
-      text-align: center;
+      margin-top: 90px;
       font-size: 0.9rem;
       color: var(--muted);
     }
@@ -92,19 +103,34 @@
 
 <body>
   <div class="container">
-    <h1>Hasan Sohail</h1>
-    <p class="tagline">
-      Epidemiologist · Global Health · Researcher · Podcaster
-    </p>
 
-    <div class="section">
-      <h2>About</h2>
-      <p>
-        I work at the intersection of global health, social policy, and population health.
-        My work focuses on health equity, migration, and data-driven policy research.
+    <!-- HERO -->
+    <div class="hero">
+      <h1>Hasan Sohail</h1>
+
+      <div class="role">
+        Epidemiologist · Global Health · Social Policy
+      </div>
+
+      <p class="intro">
+        I am an epidemiologist working at the intersection of global health,
+        social policy, and population health. My work focuses on health equity,
+        migration, and data-driven policy research, with interests in policy
+        translation and public engagement.
       </p>
     </div>
 
+    <!-- ABOUT -->
+    <div class="section">
+      <h2>About</h2>
+      <p>
+        I work across research, teaching, and public engagement in global health
+        and social policy, with a focus on population health, migration, and
+        health equity.
+      </p>
+    </div>
+
+    <!-- WORK -->
     <div class="section">
       <h2>Work</h2>
       <ul>
@@ -114,4 +140,19 @@
       </ul>
     </div>
 
-    <div cl
+    <!-- CONTACT -->
+    <div class="section">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:hasan@email.com">hasan@email.com</a><br>
+        LinkedIn: <a href="#">linkedin.com/in/hasansohail</a>
+      </p>
+    </div>
+
+    <footer>
+      © 2026 Hasan Sohail
+    </footer>
+
+  </div>
+</body>
+</html>
