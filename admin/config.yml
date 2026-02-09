@@ -3,7 +3,7 @@ backend:
   repo: HasanSohail1/HasanSohail1.github.io
   branch: main
   auth_type: pkce
-  app_id: PASTE_YOUR_CLIENT_ID_HERE
+  app_id: Ov23liLguw6n6L44yX5M
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
